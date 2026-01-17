@@ -1,0 +1,21 @@
+name: Glimpsy
+version: '1.0'
+main: threeadd.glimpsy.Glimpsy
+description: The Glimpsy void survival gameplay by 3add
+api-version: '1.21'
+authors: [ 3add ]
+bootstrapper: threeadd.glimpsy.GlimpsyBootstrap
+dependencies:
+  server:
+    packetevents:
+      load: OMIT
+      required: true
+      join-classpath: true
+    FastAsyncWorldEdit:
+      load: OMIT
+      required: true
+      join-classpath: true
+    Votifier:
+      load: OMIT
+      required: true
+      join-classpath: true
